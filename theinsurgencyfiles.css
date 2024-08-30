@@ -1,0 +1,99 @@
+/*███████████                      █████           
+░░███░░░░░░█                     ░░███            
+ ░███   █ ░   ██████  ████████   ███████    █████ 
+ ░███████    ███░░███░░███░░███ ░░░███░    ███░░  
+ ░███░░░█   ░███ ░███ ░███ ░███   ░███    ░░█████ 
+ ░███  ░    ░███ ░███ ░███ ░███   ░███ ███ ░░░░███
+ █████      ░░██████  ████ █████  ░░█████  ██████ 
+░░░░░        ░░░░░░  ░░░░ ░░░░░    ░░░░░  ░░░░░░         DOS REBEL   */
+font-face {
+    font-family: "Ubuntu Mono"; 
+    src: url("https://tommyjase.neocities.org/fonts/UbuntuMono-Regular.ttf") format("truetype");
+}
+font-face {
+    font-family: "Ubuntu Mono"; 
+    src: url("https://tommyjase.neocities.org/fonts/UbuntuMono-Italic.ttf") format("truetype");
+    font-style: italic;
+}
+font-face {
+    font-family: "Ubuntu Mono"; 
+    src: url("https://tommyjase.neocities.org/fonts/UbuntuMono-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+font-face {
+    font-family: "Ubuntu Mono"; 
+    src: url("https://tommyjase.neocities.org/fonts/UbuntuMono-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+/* █████████           ████                                       
+  ███░░░░░███         ░░███                                       
+ ███     ░░░   ██████  ░███   ██████  █████ ████ ████████   █████ 
+░███          ███░░███ ░███  ███░░███░░███ ░███ ░░███░░███ ███░░  
+░███         ░███ ░███ ░███ ░███ ░███ ░███ ░███  ░███ ░░░ ░░█████ 
+░░███     ███░███ ░███ ░███ ░███ ░███ ░███ ░███  ░███      ░░░░███
+ ░░█████████ ░░██████  █████░░██████  ░░████████ █████     ██████ 
+  ░░░░░░░░░   ░░░░░░  ░░░░░  ░░░░░░    ░░░░░░░░ ░░░░░     ░░░░░░  */
+  
+.red {
+color: #FF5151
+}
+
+.blue {
+  color: #7291FF
+}
+
+.purple {
+  color: #D272FF
+}
+
+.orange {
+  color: #FF9838
+}
+
+
+/*
+ ██████   ██████            ███            
+░░██████ ██████            ░░░             
+ ░███░█████░███   ██████   ████  ████████  
+ ░███░░███ ░███  ░░░░░███ ░░███ ░░███░░███ 
+ ░███ ░░░  ░███   ███████  ░███  ░███ ░███ 
+ ░███      ░███  ███░░███  ░███  ░███ ░███ 
+ █████     █████░░████████ █████ ████ █████
+░░░░░     ░░░░░  ░░░░░░░░ ░░░░░ ░░░░ ░░░░░ */
+body {
+  background-image: url('https://tommyjase.neocities.org/insurgencyfiles.png');
+  background-repeat:repeat-y;
+  background-size: contain;
+  background-attachment: fixed;
+  background-color:#212121;
+  background-position: center;
+  color: #EEEEEE;
+  padding: 0px;
+}
+
+#main {
+max-width: 1450px;
+margin-inline: auto;
+}
+
+legend {
+    padding: 3px 6px;
+    background-color: #131313;
+    border-radius: 5px;
+    font-size: 20px;
+}
+fieldset > p {
+    margin: 0.4rem;
+}
+fieldset {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+div > img {
+    padding-left: 10px;
+    padding-top: 0.5rem;
+
+}
